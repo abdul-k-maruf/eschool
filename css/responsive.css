@@ -1,0 +1,485 @@
+/* Large laptop/ small desktops */
+@media (max-width: 1440px) {
+  .header .container {
+    margin: 0 40px;
+  }
+
+
+  .nav-links a {
+    margin: 0 14px;
+  }
+
+  .header {
+    margin: 0 100px;
+  }
+
+  .opening {
+    margin: 20px 0;
+  }
+.learn{text-align: left;}
+  .start {
+    justify-content: left;
+  }
+
+  .all-course {
+    gap: 0;
+    margin: 0 40px;
+  }
+
+  .profile {
+    min-width: 200px;
+    height: auto;
+  }
+
+  .review p {
+    font-size: 24px;
+  }
+
+  .review {
+    margin: 10px 100px 30px;
+  }
+
+  .all-course h3 {
+    font-size: 32px;
+  }
+
+  .all-course h5 {
+    font-size: 24px;
+  }
+
+  .all-course button {
+    font-size: 18px;
+  }
+
+  .date,
+  .seat {
+    font-size: 13px;
+  }
+
+  .footer,
+  .para-div {
+    font-size: 18px;
+  }
+}
+
+
+/* Laptops */
+@media (max-width: 1024px) {
+  .learn-fun {
+    font-size: 48px;
+    text-align: left;
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .nav-links {
+    align-items: center;
+  }
+
+  .learn {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .start {
+    font-size: 24px;
+    margin-top: 10px;
+
+
+  }
+
+  .opening {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    width: 300px;
+  }
+
+  .header {
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .hero-section {
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .header .container {
+    margin: 0 24px;
+  }
+
+  .menu-bar {
+    gap: 14px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    gap: 6px;
+  }
+
+  .nav-links a {
+    margin: 0 10px;
+  }
+
+  .navbar-logo img {
+    max-width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: left;
+  }
+
+  .achieve .container {
+    flex-wrap: wrap;
+  }
+
+  .all-course {
+    margin: 0 60px;
+    gap: 20px;
+  }
+
+  .all-course h3 {
+    font-size: 24px;
+  }
+
+  .all-course h5 {
+    font-size: 18px;
+  }
+
+  .all-course button {
+    font-size: 16px;
+  }
+
+  .date,
+  .seat {
+    font-size: 13px;
+  }
+
+  .course-img {
+    max-width: 240px;
+  }
+
+  .review p {
+    font-size: 18px;
+  }
+}
+
+/* Large phones / small tablets */
+@media (max-width: 768px) {
+  .learn-fun {
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .learn {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .opening {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .start {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header .container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .menu-bar {
+    gap: 14px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    gap: 6px;
+    text-align: center;
+  }
+
+  .nav-links a {
+    margin: 0 10px;
+  }
+
+  .nav-links li {
+    margin: 0 5px;
+  }
+
+  .navbar-logo img {
+    max-width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: left;
+  }
+
+  .btn-sign {
+    margin: 0%;
+  }
+
+  .menu-bar {
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .navbar {
+    width: 100%;
+    order: 2;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btn-sign {
+    order: 1;
+    padding: 10px 16px;
+  }
+
+  .navbar-logo img {
+    max-width: 140px;
+  }
+
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+
+  .achieve .container {
+    flex-wrap: wrap;
+  }
+
+  .all-course {
+    gap: 60px;
+  }
+
+  .all-course h3 {
+    font-size: 22px;
+  }
+
+  .all-course h5 {
+    font-size: 16px;
+  }
+
+  .all-course button {
+    font-size: 14px;
+  }
+
+  .date,
+  .seat {
+    font-size: 11px;
+  }
+
+  .para-div,
+  .course-div,
+  .terms-div,
+  .links-div {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+/* Phones */
+@media (max-width: 600px) {
+  .menu-bar {
+    gap: 8px;
+    flex-direction: column;
+    align-content: center;
+    text-align: start;
+  }
+
+  .nav-links {
+    padding: 0;
+  }
+
+  .btn-sign {
+    margin: 0;
+  }
+
+  .hero-section {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+
+  .learn-fun {
+    text-align: center;
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .learn {
+    font-size: 13px;
+    padding-top: 10px;
+  }
+
+  .opening {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .start {
+    font-size: 13px;
+    text-align: center;
+    margin-top: auto;
+    width: 150px;
+
+
+
+
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links a {
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .btn-sign {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 50px;
+  }
+
+  .all-course {
+    margin: 0 10px;
+  }
+
+  .all-course h3 {
+    font-size: 20px;
+  }
+
+  .all-course h5 {
+    font-size: 13px;
+  }
+
+  .all-course button {
+    font-size: 12px;
+  }
+
+  .seat,
+  .date {
+    font-size: 10px;
+  }
+
+  .review {
+    margin: 50px;
+    flex-direction: column;
+  }
+
+  .profile {
+    min-width: 100px;
+  }
+
+  .review p {
+    max-width: 100%;
+    text-align: justify;
+    font-size: 12px;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .footer .para-div {
+    margin: 5px;
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .footer ul {
+    padding: 0;
+  }
+
+  .course-div,
+  .terms-div,
+  .links-div {
+    text-align: center;
+  }
+
+  .top {
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+}
+
+
+/* Small phones */
+@media (max-width: 400px) {
+  .start {
+    margin: auto;
+  }
+
+  .learn-fun {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .learn {
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .opening {
+    margin: 10 0;
+  }
+
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+
+  .achieve {
+    margin: 0 30px;
+  }
+
+  .card-title {
+    font-size: medium;
+  }
+
+  .anything {
+    font-size: small;
+  }
+
+  .all-course {
+    margin: 0;
+  }
+
+  .course-img {
+    max-width: 270px;
+  }
+
+}
