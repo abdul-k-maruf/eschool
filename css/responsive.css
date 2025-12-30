@@ -16,10 +16,21 @@
   .opening {
     margin: 20px 0;
   }
-.learn{text-align: left;}
-  .start {
-    justify-content: left;
-  }
+.learn {
+  text-align: left;
+}
+.srt-btn {
+  margin-top: 1.5rem;
+}
+.start {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 999px;
+  background: #20A87E;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
 
   .all-course {
     gap: 0;
@@ -481,5 +492,6 @@
   .course-img {
     max-width: 270px;
   }
+
 
 }
