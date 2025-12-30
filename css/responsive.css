@@ -495,3 +495,31 @@
 
 
 }
+
+@media (min-width: 1441px) {
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .hero-section > div:first-child {
+    flex: 1 1 55%;
+    max-width: 55%;
+  }
+  .hero-section > div:last-child {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .srt-btn {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+  .srt-btn .start {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 999px;
+  }
+}
